@@ -85,10 +85,15 @@
         GAME {
             display-name = "Game";
             bindings = <
-&kp N1  &kp TAB    &kp Q  &kp W   &kp E      &kp R           &none  &none  &none  &none  &none  &trans
-&kp N2  &kp LCTRL  &kp A  &kp S   &kp D      &kp F           &none  &none  &none  &none  &none  &none
-&kp N3  &kp LSHFT  &kp Y  &kp X   &kp C      &kp V           &none  &none  &none  &none  &none  &none
-                          &none   &kp SPACE  &kp LEFT_ALT    &none  &none
+// ╭───────────────┬────────────────┬────────────────┬─────────────────┬─────────────────┬──────╮  ╭──────┬──────────────────┬──────────────────┬─────────────────┬────────────────────────┬─────────────╮
+    &kp C_AC_SEARCH &kp RU_CYRILLIC_SHORT_I            &kp RU_CYRILLIC_TSE            &kp RU_CYRILLIC_U             &kp RU_CYRILLIC_KA             &kp RU_CYRILLIC_IE     &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE              &kp RU_CYRILLIC_SHA              &kp RU_CYRILLIC_SHCHA             &kp RU_CYRILLIC_ZE                     &td_layers
+// ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼────────────────────────┼─────────────┤
+    &kp TAB         &ht_left LCMD A  &ht_left LALT S  &ht_left LSHFT D  &ht_left LCTRL F  &kp G     &kp H  &ht_right RCTRL J  &ht_right RSHFT K  &ht_right LALT L  &ht_right RCMD SEMICOLON  &kp DEL
+// ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼────────────────────────┼─────────────┤
+    &clip_hist      &kp Z            &kp X            &kp C             &kp V             &kp B     &kp N  &kp M              &mm_cm_sc          &mm_pr_col        &mm_qm_ex                 &kp FSLH
+// ╰───────────────┴────────────────┴────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┴─────────────────┴────────────────────────┴─────────────╯
+                                                             &td_esc_scrl_slow   &td_clk  &td_bs     &kp ENTER  &td_space_nav
+                                                         // ╰──────────────────┴─────────┴──────╯  ╰──────────┴──────────────╯
             >;
         };
 
