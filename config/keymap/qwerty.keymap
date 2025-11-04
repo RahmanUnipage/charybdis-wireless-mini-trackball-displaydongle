@@ -71,9 +71,9 @@
         NUM {
             display-name = "Num";
             bindings = <
-&none    &none     &none     &none       &none      &none            &kp PLUS     &mm_f7             &mm_f8             &mm_f9             &mm_f10            &kp DELETE
-&kp TAB  &kp LCMD  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp BACKSPACE    &kp MINUS    &mm_f4             &mm_f5             &mm_f6             &mm_f11            &mm_qm_ex
-&none    &none     &kp X     &none       &none      &none            &kp EQUAL    &mm_f1             &mm_f2             &mm_f3             &mm_f12            &kp KP_SLASH
+&none    &none     &none     &none       &none      &none            &kp PLUS     &kp N7             &kp N8             &kp N9             &kp PRCNT            &kp DELETE
+&kp TAB  &kp LCMD  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp BACKSPACE    &kp MINUS    &kp N4             &kp N5             &kp N6             &kp ASTRK            &mm_qm_ex
+&none    &none     &kp X     &none       &none      &none            &kp EQUAL    &kp N1             &kp N2             &kp N3             &kp DOT            &kp KP_SLASH
                              &none       &none      &trans           &kp N0       &kp SPACE
             >;
         };
@@ -91,9 +91,9 @@
         SYM {
             display-name = "Sym";
             bindings = <
-&none  &kp TILDE  &kp DLLR    &kp CARET  &move_line_up    &mc_add_above      &kp AMPS   &kp PLUS     &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSLH
-&none  &kp UNDER  &kp LT      &kp GT     &kp BACKSPACE    &delete_line       &kp GRAVE  &kp KP_MINUS &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
-&none  &home_dir  &kp PL_EURO &kp HASH   &move_line_down  &mc_add_below      &code_blk  &kp EQUAL    &kp LBRC  &kp RBRC  &kp AT     &kp FSLH
+&none     &kp TILDE  &kp DLLR    &kp CARET  &move_line_up    &mc_add_above      &kp PLUS      &kp AMPS  &kp LBKT  &kp RBKT  &kp LT     &kp GT
+&kp GRAVE &kp UNDER  &kp LT      &kp GT     &kp BACKSPACE    &delete_line       &kp KP_MINUS  &kp AT    &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
+&code_blk &home_dir  &kp PL_EURO &kp HASH   &move_line_down  &mc_add_below      &kp EQUAL     &kp PRCNT &kp LBRC  &kp RBRC  &kp BSLH   &kp FSLH
                                        &none  &trans     &trans            &trans   &trans
             >;
         };
