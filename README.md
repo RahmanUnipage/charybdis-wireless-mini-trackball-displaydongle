@@ -22,6 +22,9 @@ This comprehensive guide covers the assembly of the **Charybdis Wireless Mini ke
 | **USB-C Cable** | For flashing and programming |
 | **Battery** | See [Battery Recommendations](#battery-recommendations) |
 
+For full bill of materials and assembly instructions, refer to the [Charybdis Wireless Mini Build Guide](https://github.com/280Zo/charybdis-wireless-mini-3x6-build-guide).
+Display can be ordered [here(non-touch version)](https://www.waveshare.com/1.69inch-touch-lcd-module.htm).
+
 ### Case Files
 
 3D-printable case files are available in the `case/` directory:
