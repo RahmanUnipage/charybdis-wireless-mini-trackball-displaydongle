@@ -1,4 +1,0 @@
-&kscan0 {
-    debounce-press-ms = <20>;
-    debounce-release-ms = <20>;
-};
